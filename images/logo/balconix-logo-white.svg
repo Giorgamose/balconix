@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <!-- Window Icon -->
+  <g transform="translate(5, 5)">
+    <!-- Window Frame -->
+    <rect x="0" y="0" width="40" height="40" rx="4" fill="#FFFFFF"/>
+    <!-- Window Panes -->
+    <rect x="4" y="4" width="14" height="14" rx="2" fill="#2563EB"/>
+    <rect x="22" y="4" width="14" height="14" rx="2" fill="#2563EB"/>
+    <rect x="4" y="22" width="14" height="14" rx="2" fill="#2563EB"/>
+    <rect x="22" y="22" width="14" height="14" rx="2" fill="#2563EB"/>
+    <!-- Window Dividers -->
+    <line x1="20" y1="4" x2="20" y2="36" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="4" y1="20" x2="36" y2="20" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Text: Balconix -->
+  <text x="55" y="32" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">
+    Balcon<tspan fill="#DBEAFE">ix</tspan>
+  </text>
+</svg>
