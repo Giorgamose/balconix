@@ -5,16 +5,19 @@ import { useContactActions } from '@hooks/index';
 import Button from '@components/common/Button';
 import { ANIMATION_VARIANTS } from '@utils/constants';
 
+// Base URL for assets (handles GitHub Pages deployment)
+const BASE_URL = import.meta.env.BASE_URL;
+
 // Slideshow images from your project photos
 const slideshowImages = [
-  '/images/projects/project-1.jpg',
-  '/images/projects/project-2.jpg',
-  '/images/projects/project-3.jpg',
-  '/images/projects/project-4.jpg',
-  '/images/projects/project-5.jpg',
-  '/images/projects/project-6.jpg',
-  '/images/projects/project-7.jpg',
-  '/images/projects/project-8.jpg',
+  `${BASE_URL}images/projects/project-1.jpg`,
+  `${BASE_URL}images/projects/project-2.jpg`,
+  `${BASE_URL}images/projects/project-3.jpg`,
+  `${BASE_URL}images/projects/project-4.jpg`,
+  `${BASE_URL}images/projects/project-5.jpg`,
+  `${BASE_URL}images/projects/project-6.jpg`,
+  `${BASE_URL}images/projects/project-7.jpg`,
+  `${BASE_URL}images/projects/project-8.jpg`,
 ];
 
 // Icons

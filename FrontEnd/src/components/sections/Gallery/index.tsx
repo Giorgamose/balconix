@@ -2,20 +2,23 @@ import { FC, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
+// Base URL for assets (handles GitHub Pages deployment)
+const BASE_URL = import.meta.env.BASE_URL;
+
 // Real project images from Pictures folder
 const galleryImages = [
-  { id: '1', src: '/images/projects/project-1.jpg', category: 'all' },
-  { id: '2', src: '/images/projects/project-2.jpg', category: 'sliding' },
-  { id: '3', src: '/images/projects/project-3.jpg', category: 'folding' },
-  { id: '4', src: '/images/projects/project-4.jpg', category: 'frameless' },
-  { id: '5', src: '/images/projects/project-5.jpg', category: 'sliding' },
-  { id: '6', src: '/images/projects/project-6.jpg', category: 'folding' },
-  { id: '7', src: '/images/projects/project-7.jpg', category: 'frameless' },
-  { id: '8', src: '/images/projects/project-8.jpg', category: 'sliding' },
-  { id: '9', src: '/images/projects/project-9.jpg', category: 'folding' },
-  { id: '10', src: '/images/projects/project-10.jpg', category: 'frameless' },
-  { id: '11', src: '/images/projects/project-11.jpg', category: 'sliding' },
-  { id: '12', src: '/images/projects/project-12.jpg', category: 'folding' },
+  { id: '1', src: `${BASE_URL}images/projects/project-1.jpg`, category: 'all' },
+  { id: '2', src: `${BASE_URL}images/projects/project-2.jpg`, category: 'sliding' },
+  { id: '3', src: `${BASE_URL}images/projects/project-3.jpg`, category: 'folding' },
+  { id: '4', src: `${BASE_URL}images/projects/project-4.jpg`, category: 'frameless' },
+  { id: '5', src: `${BASE_URL}images/projects/project-5.jpg`, category: 'sliding' },
+  { id: '6', src: `${BASE_URL}images/projects/project-6.jpg`, category: 'folding' },
+  { id: '7', src: `${BASE_URL}images/projects/project-7.jpg`, category: 'frameless' },
+  { id: '8', src: `${BASE_URL}images/projects/project-8.jpg`, category: 'sliding' },
+  { id: '9', src: `${BASE_URL}images/projects/project-9.jpg`, category: 'folding' },
+  { id: '10', src: `${BASE_URL}images/projects/project-10.jpg`, category: 'frameless' },
+  { id: '11', src: `${BASE_URL}images/projects/project-11.jpg`, category: 'sliding' },
+  { id: '12', src: `${BASE_URL}images/projects/project-12.jpg`, category: 'folding' },
 ];
 
 export const Gallery: FC = () => {
