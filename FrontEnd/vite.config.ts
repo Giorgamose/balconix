@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(() => ({
   plugins: [react()],
-  // Base URL for GitHub Pages - change 'balconix' to your repo name
-  base: '/balconix/',
+  // Use '/balconix/' for GitHub Pages, '/' for Azure and local dev
+  base: process.env.GITHUB_PAGES === 'true' ? '/balconix/' : '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -40,4 +40,4 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom', 'framer-motion', 'i18next', 'react-i18next'],
   },
-});
+}));
