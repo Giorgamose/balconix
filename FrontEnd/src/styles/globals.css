@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-neutral-dark-gray antialiased;
+  }
+
+  /* Georgian font for Georgian text */
+  :lang(ka) {
+    font-family: 'Noto Sans Georgian', 'Inter', system-ui, sans-serif;
+  }
+
+  /* Focus styles for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-primary ring-offset-2;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-light-gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-medium-gray rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-dark-gray;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Button variants */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-semibold rounded-xl transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-primary text-white hover:bg-brand-primary-dark focus-visible:ring-brand-primary shadow-soft hover:shadow-medium;
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-brand-primary border-2 border-brand-primary hover:bg-brand-primary-light focus-visible:ring-brand-primary;
+  }
+
+  .btn-whatsapp {
+    @apply btn bg-social-whatsapp text-white hover:bg-social-whatsapp-dark focus-visible:ring-social-whatsapp shadow-soft hover:shadow-medium;
+  }
+
+  .btn-messenger {
+    @apply btn bg-social-messenger text-white hover:bg-social-messenger-dark focus-visible:ring-social-messenger shadow-soft hover:shadow-medium;
+  }
+
+  /* Input styles */
+  .input {
+    @apply w-full px-4 py-3 text-neutral-dark-gray bg-white border border-neutral-light-gray rounded-xl transition-all duration-200;
+    @apply focus:outline-none focus:border-brand-primary focus:ring-2 focus:ring-brand-primary-light;
+    @apply placeholder:text-neutral-medium-gray;
+  }
+
+  .input-error {
+    @apply border-feedback-error focus:border-feedback-error focus:ring-feedback-error-light;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-white rounded-2xl shadow-soft p-6 transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-medium hover:-translate-y-1;
+  }
+
+  /* Section styles */
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-alt {
+    @apply section bg-neutral-off-white;
+  }
+
+  /* Container */
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8 max-w-7xl;
+  }
+
+  /* Heading styles */
+  .heading-section {
+    @apply text-display-sm md:text-display-md font-bold text-neutral-dark-gray mb-4;
+  }
+
+  .heading-subsection {
+    @apply text-heading-xl md:text-display-sm font-semibold text-neutral-dark-gray mb-3;
+  }
+
+  /* Text styles */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Floating button base */
+  .floating-btn {
+    @apply fixed z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-strong transition-all duration-300;
+    @apply hover:scale-110 active:scale-95;
+  }
+}
+
+/* Custom utilities */
+@layer utilities {
+  /* Glass effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+
+  .glass-dark {
+    @apply bg-neutral-dark-gray/80 backdrop-blur-md;
+  }
+
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Line clamp */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Animation delays */
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+  .delay-300 {
+    animation-delay: 300ms;
+  }
+  .delay-400 {
+    animation-delay: 400ms;
+  }
+  .delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

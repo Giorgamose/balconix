@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "Balconix - Balkon Şüşələnməsi | Həmişə Keyfiyyət!",
+    "description": "Gürcüstanda premium balkon şüşələnməsi. Sürüşmə, qatlanan və çərçivəsiz sistemlər. Pulsuz ölçmə."
+  },
+  "nav": {
+    "home": "Ana səhifə",
+    "products": "Məhsullar",
+    "gallery": "Qalereya",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "requestCallback": "Geri zəng edin"
+  },
+  "hero": {
+    "title": "Balkon Şüşələnməsi",
+    "titleHighlight": "Həmişə Keyfiyyət!",
+    "subtitle": "Müasir şüşələnmə sistemləri ilə balkonunuzu rahat məkana çevirin",
+    "cta": {
+      "getPrice": "Qiymət öyrən",
+      "whatsapp": "WhatsApp",
+      "call": "Zəng et"
+    }
+  },
+  "trust": {
+    "projects": "500+",
+    "projectsLabel": "Tamamlanmış layihə",
+    "affordable": "Münasib",
+    "affordableLabel": "qiymətlər",
+    "measurement": "Pulsuz",
+    "measurementLabel": "ölçmə",
+    "warranty": "5 İl",
+    "warrantyLabel": "zəmanət"
+  },
+  "products": {
+    "title": "Sistemlərimiz",
+    "subtitle": "Sizə uyğun həlli seçin",
+    "sliding": {
+      "name": "Sürüşmə Sistemi",
+      "description": "Maksimum funksionallıqla iqtisadi variant",
+      "features": ["Münasib qiymət", "İstifadəsi asan", "Yaxşı izolyasiya"]
+    },
+    "folding": {
+      "name": "Qatlanan Sistem",
+      "description": "Qiymət və keyfiyyətin ideal tarazlığı",
+      "features": ["Tam açılış", "Müasir dizayn", "Çox yönlü"]
+    },
+    "frameless": {
+      "name": "Çərçivəsiz Şüşələnmə",
+      "description": "Maksimum görünüş və estetika",
+      "features": ["Panoramik görünüş", "Zərif", "Premium keyfiyyət"]
+    },
+    "learnMore": "Daha çox öyrən"
+  },
+  "gallery": {
+    "title": "Layihələrimiz",
+    "subtitle": "Tamamlanmış işlərimizə baxın",
+    "viewAll": "Hamısına bax",
+    "beforeAfter": "Əvvəl / Sonra"
+  },
+  "howItWorks": {
+    "title": "Necə İşləyir",
+    "subtitle": "Sadə və şəffaf proses",
+    "step1": {
+      "title": "Ölçmə",
+      "description": "Mütəxəssisimiz gəlib pulsuz ölçmə aparacaq"
+    },
+    "step2": {
+      "title": "İstehsal",
+      "description": "Yüksək keyfiyyətli materiallarla istehsal"
+    },
+    "step3": {
+      "title": "Quraşdırma",
+      "description": "Qısa müddətdə peşəkar quraşdırma"
+    },
+    "step4": {
+      "title": "Hazırdır!",
+      "description": "Yenilənmiş balkonunuzdan həzz alın"
+    }
+  },
+  "quickContact": {
+    "title": "Pulsuz Məsləhət Alın",
+    "subtitle": "5 dəqiqə ərzində geri zəng edəcəyik",
+    "phonePlaceholder": "Telefonunuz",
+    "submit": "Geri zəng edin",
+    "success": "Təşəkkür edirik! Tezliklə sizinlə əlaqə saxlayacağıq",
+    "error": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin"
+  },
+  "testimonials": {
+    "title": "Müştəri Rəyləri",
+    "subtitle": "Müştərilərimiz nə deyir"
+  },
+  "finalCta": {
+    "title": "Balkonunuzu Dəyişdirməyə Hazırsınız?",
+    "subtitle": "İndi bizimlə əlaqə saxlayın və pulsuz məsləhət alın",
+    "cta": "Bizimlə əlaqə"
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "subtitle": "Təcrübə və peşəkarlıq sizin xidmətinizdə",
+    "description": "Balconix, müasir balkon şüşələmə sistemləri üzrə ixtisaslaşmış ILSO GROUP brendidir. Komandamız əlverişli qiymətlərlə yüksək keyfiyyətli xidmət təklif edir.",
+    "experience": {
+      "years": "10+",
+      "label": "illik təcrübə"
+    },
+    "team": {
+      "title": "Peşəkar Komanda",
+      "description": "Komandamız daim inkişaf edən və müasir texnologiyaları öyrənən təcrübəli mütəxəssislərdən ibarətdir."
+    },
+    "quality": {
+      "title": "Keyfiyyət Zəmanəti",
+      "description": "Biz yalnız sertifikatlaşdırılmış, Avropa istehsalı materiallardan istifadə edirik. Bütün məhsullar 5 illik zəmanətlə gəlir."
+    },
+    "service": {
+      "title": "Tam Xidmət",
+      "description": "Məsləhətdən quraşdırmaya qədər - tam xidmət təklif edirik. Siz sadəcə nəticədən həzz alın."
+    },
+    "whyUs": {
+      "title": "Niyə Balconix?",
+      "items": [
+        "Pulsuz ölçü və məsləhət",
+        "Əlverişli qiymətlər",
+        "Sürətli quraşdırma (3-5 gün)",
+        "5 illik zəmanət",
+        "Sertifikatlaşdırılmış materiallar",
+        "Peşəkar komanda"
+      ]
+    }
+  },
+  "footer": {
+    "company": "Balconix",
+    "tagline": "Həmişə Keyfiyyət!",
+    "poweredBy": "Powered by ILSO GROUP",
+    "contact": "Əlaqə",
+    "quickLinks": "Sürətli Keçidlər",
+    "followUs": "Bizi İzləyin",
+    "rights": "Bütün hüquqlar qorunur",
+    "address": "Tbilisi, Gürcüstan"
+  },
+  "form": {
+    "name": "Ad",
+    "namePlaceholder": "Adınız",
+    "phone": "Telefon",
+    "phonePlaceholder": "+995 5XX XXX XXX",
+    "systemType": "Sistem növü",
+    "selectSystem": "Sistem seçin",
+    "message": "Mesaj",
+    "messagePlaceholder": "Əlavə məlumat (istəyə bağlı)",
+    "submit": "Göndər",
+    "required": "Tələb olunan sahə",
+    "invalidPhone": "Yanlış telefon nömrəsi"
+  },
+  "floating": {
+    "whatsapp": "WhatsApp-da yazın",
+    "messenger": "Messenger-də yazın",
+    "call": "Zəng edin"
+  },
+  "whatsappMessage": "Salam, balkon şüşələnməsi ilə maraqlanıram",
+  "common": {
+    "loading": "Yüklənir...",
+    "error": "Xəta",
+    "success": "Uğur",
+    "close": "Bağla",
+    "back": "Geri",
+    "next": "Növbəti",
+    "previous": "Əvvəlki"
+  }
+}

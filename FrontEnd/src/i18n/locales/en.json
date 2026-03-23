@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "title": "Balconix - Balcony Glazing | Quality Always!",
+    "description": "Premium balcony glazing in Georgia. Sliding, folding and frameless systems. Free measurement."
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "requestCallback": "Request Callback"
+  },
+  "hero": {
+    "title": "Balcony Glazing",
+    "titleHighlight": "Quality Always!",
+    "subtitle": "Transform your balcony into a comfortable space with modern glazing systems",
+    "cta": {
+      "getPrice": "Get Price",
+      "whatsapp": "WhatsApp",
+      "call": "Call Now"
+    }
+  },
+  "trust": {
+    "projects": "500+",
+    "projectsLabel": "Completed projects",
+    "affordable": "Affordable",
+    "affordableLabel": "prices",
+    "measurement": "Free",
+    "measurementLabel": "measurement",
+    "warranty": "5 Year",
+    "warrantyLabel": "warranty"
+  },
+  "products": {
+    "title": "Our Systems",
+    "subtitle": "Choose the right solution for you",
+    "sliding": {
+      "name": "Sliding System",
+      "description": "Economical option with maximum functionality",
+      "features": ["Affordable price", "Easy to use", "Good insulation"]
+    },
+    "folding": {
+      "name": "Folding System",
+      "description": "Perfect balance of price and quality",
+      "features": ["Full opening", "Modern design", "Versatile"]
+    },
+    "frameless": {
+      "name": "Frameless Glazing",
+      "description": "Maximum view and aesthetics",
+      "features": ["Panoramic view", "Elegant", "Premium quality"]
+    },
+    "learnMore": "Learn More"
+  },
+  "gallery": {
+    "title": "Our Projects",
+    "subtitle": "See our completed work",
+    "viewAll": "View All",
+    "beforeAfter": "Before / After"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Simple and transparent process",
+    "step1": {
+      "title": "Measurement",
+      "description": "Our specialist will come and measure for free"
+    },
+    "step2": {
+      "title": "Production",
+      "description": "Manufacturing with high-quality materials"
+    },
+    "step3": {
+      "title": "Installation",
+      "description": "Professional installation in a short time"
+    },
+    "step4": {
+      "title": "Done!",
+      "description": "Enjoy your updated balcony"
+    }
+  },
+  "quickContact": {
+    "title": "Get a Free Consultation",
+    "subtitle": "We'll call you back in 5 minutes",
+    "phonePlaceholder": "Your phone number",
+    "submit": "Call Me Back",
+    "success": "Thank you! We'll contact you soon",
+    "error": "An error occurred. Please try again"
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "subtitle": "What our customers say"
+  },
+  "finalCta": {
+    "title": "Ready to Transform Your Balcony?",
+    "subtitle": "Contact us now and get a free consultation",
+    "cta": "Contact Us"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Experience and professionalism at your service",
+    "description": "Balconix is a brand of ILSO GROUP, specializing in modern balcony glazing systems. Our team offers high-quality service at affordable prices.",
+    "experience": {
+      "years": "10+",
+      "label": "years of experience"
+    },
+    "team": {
+      "title": "Professional Team",
+      "description": "Our team consists of experienced specialists who constantly improve and learn modern technologies."
+    },
+    "quality": {
+      "title": "Quality Guarantee",
+      "description": "We use only certified, European-made materials. All products come with a 5-year warranty."
+    },
+    "service": {
+      "title": "Full Service",
+      "description": "From consultation to installation - we offer complete service. You just enjoy the result."
+    },
+    "whyUs": {
+      "title": "Why Balconix?",
+      "items": [
+        "Free measurement and consultation",
+        "Affordable prices",
+        "Fast installation (3-5 days)",
+        "5-year warranty",
+        "Certified materials",
+        "Professional team"
+      ]
+    }
+  },
+  "footer": {
+    "company": "Balconix",
+    "tagline": "Quality Always!",
+    "poweredBy": "Powered by ILSO GROUP",
+    "contact": "Contact",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "address": "Tbilisi, Georgia"
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "phone": "Phone",
+    "phonePlaceholder": "+995 5XX XXX XXX",
+    "systemType": "System Type",
+    "selectSystem": "Select system",
+    "message": "Message",
+    "messagePlaceholder": "Additional information (optional)",
+    "submit": "Submit",
+    "required": "Required field",
+    "invalidPhone": "Invalid phone number"
+  },
+  "floating": {
+    "whatsapp": "Chat on WhatsApp",
+    "messenger": "Chat on Messenger",
+    "call": "Call Now"
+  },
+  "whatsappMessage": "Hello, I'm interested in balcony glazing",
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
