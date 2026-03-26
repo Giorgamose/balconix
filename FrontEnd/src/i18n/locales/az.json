@@ -233,20 +233,33 @@
     "subtitle": "Balconix peşəkarları ilə tanış olun",
     "hero": {
       "title": "Biz Kimik",
-      "subtitle": "5 illik təcrübə, yüzlərlə məmnun müştəri"
+      "subtitle": "5 illik təcrübə, yüzlərlə məmnun müştəri",
+      "badge": "Bizim Hekayəmiz"
     },
     "story": {
       "title": "Bizim Hekayəmiz",
       "description": "5 il əvvəl təsis edilən Balconix Gürcüstanda etibar edilən balkon şüşələmə mütəxəssislərindən birinə çevrildi. Peşəkar komandamız əlverişli qiymətlərlə keyfiyyətli iş təqdim etməyə hazırdır.",
+      "paragraph1": "Balconix sadə bir missiya ilə quruldu: ədalətli qiymətlərlə keyfiyyətli balkon şüşələməsi təqdim etmək. İllər ərzində Gürcüstanda etibar edilən təchizatçılardan birinə çevrildik.",
+      "paragraph2": "Komandamız işinin keyfiyyətinə həvəslə yanaşan təcrübəli peşəkarlardan ibarətdir. İnanırıq ki, hər layihə - böyük və ya kiçik olsun - eyni diqqətə layiqdir.",
+      "paragraph3": "Bu gün Tbilisidəki müasir mənzillərdən Batumidəki dəniz kənarındakı evlərə qədər Gürcüstanda yüzlərlə layihəni tamamlamaqdan qürur duyuruq.",
       "years": "5+",
       "yearsLabel": "İllik Təcrübə",
       "projects": "500+",
       "projectsLabel": "Tamamlanmış Layihə",
       "customers": "450+",
-      "customersLabel": "Məmnun Müştəri"
+      "customersLabel": "Məmnun Müştəri",
+      "stats": {
+        "years": "5+",
+        "yearsLabel": "İllik təcrübə",
+        "projects": "500+",
+        "projectsLabel": "Layihə",
+        "satisfaction": "98%",
+        "satisfactionLabel": "Məmnuniyyət"
+      }
     },
     "values": {
       "title": "Dəyərlərimiz",
+      "subtitle": "İşimizi yönləndirən prinsiplər",
       "quality": {
         "title": "Keyfiyyət Birinci",
         "description": "Material keyfiyyətindən heç vaxt güzəştə getmirik"
@@ -263,6 +276,12 @@
     "process": {
       "title": "Prosesimiz",
       "subtitle": "Məsləhətdən tamamlamaya qədər",
+      "consultation": "Pulsuz məsləhət və ölçmə",
+      "design": "Fərdi dizayn",
+      "production": "Dəqiq istehsal",
+      "delivery": "Təhlükəsiz çatdırılma",
+      "installation": "Peşəkar quraşdırma",
+      "handover": "Son yoxlama və təhvil",
       "step1": {
         "title": "Pulsuz Məsləhət",
         "description": "Evinizə gəlib ehtiyaclarınızı müzakirə edirik"
@@ -290,6 +309,13 @@
     },
     "members": {
       "title": "Komandamızla Tanış Olun",
+      "subtitle": "Layihələrinizin arxasındakı mütəxəssislər",
+      "leadership": "Rəhbərlik",
+      "installationTeam": "Quraşdırma Komandası",
+      "gio": { "name": "Giorgi Maevski", "role": "Direktor", "bio": "10+ illik təcrübə ilə Balconix-in qurucusu" },
+      "davit": { "name": "Davit Chitanava", "role": "Layihə Meneceri", "bio": "Vaxtında və keyfiyyətli təhvilatı təmin edir" },
+      "irakli": { "name": "Irakli Gorgiladze", "role": "Baş Quraşdırıcı", "bio": "Ekspert quraşdırıcılar komandamıza rəhbərlik edir" },
+      "nino": { "name": "Nino Beradze", "role": "Müştəri Məsləhətçisi", "bio": "Hər hansı sual üçün ilk əlaqəniz" },
       "role": {
         "director": "Direktor",
         "manager": "Layihə Meneceri",
@@ -298,8 +324,14 @@
         "designer": "Dizayner"
       }
     },
+    "video": {
+      "title": "Bizi İş Başında İzləyin",
+      "subtitle": "Gürcüstanda balkonları necə çevirdiyimizi görün",
+      "play": "Video izlə"
+    },
     "cta": {
       "title": "Bizimlə işləməyə hazırsınız?",
+      "subtitle": "Pulsuz məsləhət üçün komandamızla əlaqə saxlayın",
       "button": "Komandamızla əlaqə saxlayın"
     }
   },
@@ -366,26 +398,52 @@
   },
   "portfolio": {
     "title": "Portfoliomuz",
-    "subtitle": "Tamamlanmış layihələrimizə baxın",
+    "subtitle": "Gürcüstanda tamamlanmış layihələrimizə baxın",
     "hero": {
       "title": "Layihə Qalereyası",
-      "subtitle": "İşimizin keyfiyyətini görün"
+      "subtitle": "İşimizin keyfiyyətini görün - 500+ tamamlanmış layihə"
     },
     "filters": {
+      "title": "Filtr",
       "all": "Bütün Layihələr",
+      "residential": "Yaşayış",
+      "commercial": "Kommersiya",
       "sliding": "Sürüşmə Sistemləri",
       "folding": "Qatlanan Sistemlər",
+      "frameless": "Çərçivəsiz"
+    },
+    "categories": {
+      "all": "Hamısı",
+      "residential": "Yaşayış",
+      "commercial": "Kommersiya"
+    },
+    "types": {
+      "all": "Bütün növlər",
+      "sliding": "Sürüşmə",
+      "folding": "Qatlanan",
       "frameless": "Çərçivəsiz"
     },
     "project": {
       "location": "Yer",
       "type": "Sistem Növü",
       "size": "Ölçü",
-      "viewDetails": "Ətraflı Bax"
+      "viewDetails": "Ətraflı Bax",
+      "viewProject": "Layihəyə Bax"
     },
+    "projectStats": {
+      "area": "Sahə (m²)",
+      "days": "Gün",
+      "floors": "Mərtəbə"
+    },
+    "stats": {
+      "projects": "Tamamlanmış Layihə",
+      "years": "İllik Təcrübə",
+      "satisfaction": "Müştəri Məmnuniyyəti"
+    },
+    "noResults": "Seçilmiş filtrlərlə layihə tapılmadı",
     "cta": {
       "title": "Gördükləriniz xoşunuza gəldi?",
-      "subtitle": "Mükəmməl balkonunuzu yaradaq",
+      "subtitle": "Mükəmməl balkonunuzu yaradaq. Pulsuz məsləhət üçün bizimlə əlaqə saxlayın.",
       "button": "Başlayın"
     }
   },
@@ -438,6 +496,8 @@
       "title": "Bloqumuz",
       "subtitle": "Ən son xəbərlər və məsləhətlərdən xəbərdar olun"
     },
+    "allPosts": "Bütün Yazılar",
+    "noPosts": "Bu kateqoriyada yazı tapılmadı",
     "categories": {
       "all": "Bütün Yazılar",
       "tips": "Məsləhətlər və Bələdçilər",
@@ -447,11 +507,46 @@
     "featured": "Seçilmiş",
     "readMore": "Daha çox oxu",
     "readTime": "dəq oxunma",
+    "posts": {
+      "benefits": {
+        "title": "Balkon Şüşələməsinin 5 Əsas Faydası",
+        "excerpt": "Balkon şüşələməsinin eviniz üçün niyə ağıllı investisiya olduğunu və yaşayış sahənizi necə yaxşılaşdıra biləcəyini kəşf edin."
+      },
+      "rightSystem": {
+        "title": "Doğru Şüşələmə Sistemini Seçmək",
+        "excerpt": "Ekspert bələdçimiz ehtiyaclarınıza və büdcənizə uyğun şüşələmə sistemini seçməyə kömək edəcək."
+      },
+      "maintenance": {
+        "title": "Şüşə Balkonunuzun Qulluğu",
+        "excerpt": "Şüşələnmiş balkonunuzu illərlə təmiz və işlək saxlamaq üçün sadə məsləhətlər."
+      },
+      "energyEfficiency": {
+        "title": "Balkonda Enerji Səmərəliliyi",
+        "excerpt": "Balkon şüşələməsinin enerji xərclərinizi necə azalda biləcəyini və rahatlığı necə artıra biləcəyini öyrənin."
+      },
+      "winterGarden": {
+        "title": "Balkonda Qış Bağı Yaratmaq",
+        "excerpt": "Düzgün şüşələmə və dizaynla balkonunuzu rahat qış bağına çevirin."
+      },
+      "soundproofing": {
+        "title": "Balkonda Səs İzolyasiyası",
+        "excerpt": "Keyfiyyətli şüşələmə ilə küçə səs-küyündən necə qorunmaq olar."
+      },
+      "modernDesign": {
+        "title": "Müasir Balkon Dizayn Trendləri",
+        "excerpt": "2024-cü ildə balkon şüşələməsində ən aktual dizayn istiqamətləri."
+      },
+      "propertyValue": {
+        "title": "Şüşələmə Mənzil Dəyərini Necə Artırır",
+        "excerpt": "Daşınmaz əmlakınızın dəyərini artırmaq üçün ağıllı investisiya kimi balkon şüşələməsi."
+      }
+    },
     "newsletter": {
       "title": "Bülletenimizə abunə olun",
       "subtitle": "Ən son yeniliklər və məsləhətləri birbaşa e-poçtunuza alın",
       "placeholder": "E-poçtunuz",
       "button": "Abunə ol",
+      "subscribe": "Abunə ol",
       "success": "Abunə olduğunuz üçün təşəkkür edirik!"
     },
     "cta": {

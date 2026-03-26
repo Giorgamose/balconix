@@ -242,21 +242,25 @@
     "title": "Our Team",
     "subtitle": "Meet the professionals behind Balconix",
     "hero": {
+      "badge": "ILSO GROUP",
       "title": "Who We Are",
       "subtitle": "5 years of experience, hundreds of satisfied customers"
     },
     "story": {
       "title": "Our Story",
-      "description": "Founded 5 years ago, Balconix has grown to become one of Georgia's trusted balcony glazing specialists. Our team of dedicated professionals is committed to delivering quality work at affordable prices. We take pride in transforming balconies across Tbilisi and beyond.",
-      "years": "5+",
-      "yearsLabel": "Years Experience",
-      "projects": "500+",
-      "projectsLabel": "Completed Projects",
-      "customers": "450+",
-      "customersLabel": "Happy Customers"
+      "paragraph1": "Balconix was founded in 2021 as part of ILSO GROUP with a simple mission: to provide high-quality balcony glazing solutions at affordable prices for Georgian families.",
+      "paragraph2": "Over the past 5 years, we've completed over 500 projects across Georgia, from Tbilisi to Batumi, transforming ordinary balconies into beautiful, functional living spaces.",
+      "paragraph3": "Our team of skilled professionals combines modern European materials with expert craftsmanship to deliver results that exceed expectations. We're proud to be Georgia's trusted choice for balcony glazing.",
+      "stats": {
+        "years": "Years Experience",
+        "projects": "Completed Projects",
+        "team": "Team Members"
+      },
+      "since": "Since 2021"
     },
     "values": {
       "title": "Our Values",
+      "subtitle": "The principles that guide everything we do",
       "quality": {
         "title": "Quality First",
         "description": "We never compromise on material quality or workmanship"
@@ -274,9 +278,38 @@
         "description": "Your satisfaction is our top priority"
       }
     },
+    "members": {
+      "title": "Meet Our Team",
+      "subtitle": "The people who make it all happen",
+      "leadership": "Leadership",
+      "installationTeam": "Installation Specialists",
+      "founder": {
+        "name": "Giorgi Chikovani",
+        "role": "Founder & CEO"
+      },
+      "director": {
+        "name": "Davit Makharadze",
+        "role": "Operations Director"
+      },
+      "projectManager": {
+        "name": "Ana Gelashvili",
+        "role": "Project Manager"
+      },
+      "marketingManager": {
+        "name": "Nino Kvachadze",
+        "role": "Marketing Manager"
+      },
+      "installationLead": {
+        "name": "Levan Beridze",
+        "role": "Lead Installer"
+      },
+      "installer": {
+        "role": "Installation Specialist"
+      }
+    },
     "process": {
-      "title": "Our Process",
-      "subtitle": "From consultation to completion - simple and transparent",
+      "title": "How We Work",
+      "subtitle": "Simple, transparent process from start to finish",
       "consultation": {
         "title": "Free Consultation",
         "description": "We discuss your needs and provide expert advice"
@@ -302,31 +335,10 @@
         "description": "Quality check and warranty documentation"
       }
     },
-    "members": {
-      "title": "Meet Our Team",
-      "founder": {
-        "name": "Giorgi Chikovani",
-        "role": "Founder & CEO"
-      },
-      "director": {
-        "name": "Davit Makharadze",
-        "role": "Operations Director"
-      },
-      "projectManager": {
-        "name": "Ana Gelashvili",
-        "role": "Project Manager"
-      },
-      "marketingManager": {
-        "name": "Nino Kvachadze",
-        "role": "Marketing Manager"
-      },
-      "installationLead": {
-        "name": "Levan Beridze",
-        "role": "Lead Installer"
-      },
-      "installer": {
-        "role": "Installation Specialist"
-      }
+    "video": {
+      "title": "See Us In Action",
+      "subtitle": "Watch how we transform balconies",
+      "play": "Watch Video"
     },
     "cta": {
       "title": "Ready to Work with Us?",
@@ -403,9 +415,23 @@
       "subtitle": "See the quality of our work - over 500 completed projects"
     },
     "filters": {
+      "title": "Filter by",
       "all": "All Projects",
+      "residential": "Residential",
+      "commercial": "Commercial",
       "sliding": "Sliding Systems",
       "folding": "Folding Systems",
+      "frameless": "Frameless"
+    },
+    "categories": {
+      "all": "All",
+      "residential": "Residential",
+      "commercial": "Commercial"
+    },
+    "types": {
+      "all": "All Types",
+      "sliding": "Sliding",
+      "folding": "Folding",
       "frameless": "Frameless"
     },
     "project": {
@@ -415,11 +441,17 @@
       "viewDetails": "View Details",
       "viewProject": "View Project"
     },
+    "projectStats": {
+      "area": "Area (m²)",
+      "days": "Days",
+      "floors": "Floors"
+    },
     "stats": {
-      "completed": "Completed Projects",
-      "cities": "Cities Covered",
+      "projects": "Completed Projects",
+      "years": "Years Experience",
       "satisfaction": "Customer Satisfaction"
     },
+    "noResults": "No projects found with selected filters",
     "cta": {
       "title": "Like What You See?",
       "subtitle": "Let's create your perfect balcony. Contact us for a free consultation.",
@@ -521,16 +553,55 @@
     "categories": {
       "all": "All Posts",
       "tips": "Tips & Guides",
+      "guide": "Guides",
+      "comparison": "Comparisons",
       "news": "Company News",
       "projects": "Project Stories"
     },
     "featured": "Featured",
+    "allPosts": "All Posts",
     "readMore": "Read More",
     "readTime": "min read",
+    "noPosts": "No posts found in this category",
+    "posts": {
+      "benefits-of-balcony-glazing": {
+        "title": "5 Benefits of Balcony Glazing",
+        "excerpt": "Discover how glazing your balcony can transform your living space and add value to your home."
+      },
+      "choosing-right-glass-type": {
+        "title": "How to Choose the Right Glass Type",
+        "excerpt": "A comprehensive guide to selecting between single, double, and tinted glass options."
+      },
+      "maintenance-tips": {
+        "title": "Balcony Glazing Maintenance Tips",
+        "excerpt": "Keep your glazed balcony looking perfect with these simple maintenance tips."
+      },
+      "energy-efficiency": {
+        "title": "Energy Efficiency with Double Glazing",
+        "excerpt": "Learn how double glazing can reduce your energy bills and improve comfort."
+      },
+      "sliding-vs-folding": {
+        "title": "Sliding vs Folding Systems: Which is Right for You?",
+        "excerpt": "Compare the pros and cons of sliding and folding balcony glazing systems."
+      },
+      "winter-preparation": {
+        "title": "Preparing Your Glazed Balcony for Winter",
+        "excerpt": "Essential tips to ensure your balcony glazing performs well during cold months."
+      },
+      "frameless-glazing-trends": {
+        "title": "Frameless Glazing: 2026 Trends",
+        "excerpt": "Explore the latest trends in frameless balcony glazing design."
+      },
+      "common-mistakes": {
+        "title": "Common Mistakes to Avoid When Glazing Your Balcony",
+        "excerpt": "Learn from others' mistakes and make informed decisions about your balcony glazing project."
+      }
+    },
     "newsletter": {
       "title": "Subscribe to Our Newsletter",
       "subtitle": "Get the latest updates and tips directly to your inbox",
       "placeholder": "Your email address",
+      "subscribe": "Subscribe",
       "button": "Subscribe",
       "success": "Thank you for subscribing!"
     },
