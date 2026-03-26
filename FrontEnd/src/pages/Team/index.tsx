@@ -40,57 +40,57 @@ const itemVariants = {
   visible: { opacity: 1, y: 0 }
 };
 
-// Team member placeholder images (using real project images as placeholders)
+// Team member images using professional stock photos
 const teamMembers = [
   {
     id: 'founder',
     role: 'founder',
-    image: '/balconix/images/projects/project-1.jpg'
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'director',
     role: 'director',
-    image: '/balconix/images/projects/project-2.jpg'
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'projectManager',
     role: 'projectManager',
-    image: '/balconix/images/projects/project-3.jpg'
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'marketingManager',
     role: 'marketingManager',
-    image: '/balconix/images/projects/project-4.jpg'
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installationLead',
     role: 'installationLead',
-    image: '/balconix/images/projects/project-5.jpg'
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installer1',
     role: 'installer',
-    image: '/balconix/images/projects/project-6.jpg'
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installer2',
     role: 'installer',
-    image: '/balconix/images/projects/project-7.jpg'
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installer3',
     role: 'installer',
-    image: '/balconix/images/projects/project-8.jpg'
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installer4',
     role: 'installer',
-    image: '/balconix/images/projects/project-9.jpg'
+    image: 'https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop&crop=face'
   },
   {
     id: 'installer5',
     role: 'installer',
-    image: '/balconix/images/projects/project-10.jpg'
+    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&h=400&fit=crop&crop=face'
   }
 ];
 
@@ -98,32 +98,32 @@ const processSteps = [
   {
     id: 'consultation',
     icon: '📞',
-    image: '/balconix/images/projects/project-11.jpg'
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop'
   },
   {
     id: 'measurement',
     icon: '📐',
-    image: '/balconix/images/projects/project-12.jpg'
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop'
   },
   {
     id: 'design',
     icon: '✏️',
-    image: '/balconix/images/projects/project-13.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=300&fit=crop'
   },
   {
     id: 'production',
     icon: '🏭',
-    image: '/balconix/images/projects/project-14.jpg'
+    image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&h=300&fit=crop'
   },
   {
     id: 'installation',
     icon: '🔧',
-    image: '/balconix/images/projects/project-15.jpg'
+    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop'
   },
   {
     id: 'handover',
     icon: '🤝',
-    image: '/balconix/images/projects/project-16.jpg'
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop'
   }
 ];
 
@@ -143,7 +143,7 @@ export const Team: FC = () => {
       <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
-            backgroundImage: 'url("/balconix/images/projects/project-4.jpg")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&h=1080&fit=crop")',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }} />
@@ -211,12 +211,12 @@ export const Team: FC = () => {
             >
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400"
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=500&fit=crop"
                   alt="Company"
                   className="rounded-2xl shadow-lg"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400"
+                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=500&fit=crop"
                   alt="Work"
                   className="rounded-2xl shadow-lg mt-8"
                 />

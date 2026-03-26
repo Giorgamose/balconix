@@ -225,12 +225,21 @@
     },
     "warranty": {
       "title": "5-Year Warranty",
+      "badge": "Full Coverage",
+      "years": "Years",
+      "guarantee": "Full warranty on materials and workmanship",
       "description": "All our products come with a comprehensive 5-year warranty covering materials, installation, and workmanship. We stand behind the quality of our work.",
-      "frames": "Frame profiles",
-      "glassLabel": "Glass panels",
-      "hardware": "Hardware & fittings",
-      "seals": "Seals & gaskets",
-      "installation": "Installation work"
+      "features": {
+        "frames": "Frame profiles",
+        "glass": "Glass panels",
+        "hardware": "Hardware & fittings",
+        "seals": "Seals & gaskets",
+        "installation": "Installation work"
+      }
+    },
+    "import": {
+      "title": "100% European Quality Materials",
+      "description": "All our materials are imported from leading European manufacturers including Germany, Italy, and Turkey. We never compromise on quality."
     },
     "cta": {
       "title": "Want to Know More?",
@@ -349,8 +358,16 @@
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Find answers to common questions about our services",
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about balcony glazing"
+    },
+    "search": {
+      "placeholder": "Search questions..."
+    },
     "searchPlaceholder": "Search questions...",
     "categories": {
+      "title": "Categories",
       "all": "All",
       "general": "General",
       "products": "Products",
@@ -401,6 +418,11 @@
       }
     },
     "notFound": "No questions found matching your search",
+    "contact": {
+      "title": "Still Have Questions?",
+      "subtitle": "Contact us and we'll be happy to help",
+      "call": "Call Us"
+    },
     "cta": {
       "title": "Still Have Questions?",
       "subtitle": "Contact us and we'll be happy to help",

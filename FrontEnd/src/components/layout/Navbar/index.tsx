@@ -1,5 +1,5 @@
 import { FC, useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useScrollPosition, useLanguage, useContactActions } from '@hooks/index';
@@ -34,7 +34,11 @@ export const Navbar: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
   const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
-  useLocation(); // Used for potential future route-based styling
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  // Check if we're on the home page
+  const isHomePage = location.pathname === '/' || location.pathname === '';
 
   // Close mobile menu on resize
   useEffect(() => {
@@ -62,7 +66,17 @@ export const Navbar: FC = () => {
   const handleNavClick = (href: string) => {
     setIsMobileMenuOpen(false);
     const sectionId = href.replace('#', '');
-    scrollToElement(sectionId);
+    
+    // If we're not on the home page, navigate to home first then scroll
+    if (!isHomePage) {
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        scrollToElement(sectionId);
+      }, 100);
+    } else {
+      scrollToElement(sectionId);
+    }
   };
 
   return (

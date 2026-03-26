@@ -53,19 +53,19 @@ export const Materials: FC = () => {
     {
       id: 'pvc',
       icon: <GlassIcon />,
-      image: '/balconix/images/projects/project-1.jpg',
+      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop',
       color: 'from-blue-500 to-blue-600'
     },
     {
       id: 'aluminum',
       icon: <ShieldIcon />,
-      image: '/balconix/images/projects/project-5.jpg',
+      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop',
       color: 'from-gray-500 to-gray-600'
     },
     {
       id: 'frameless',
       icon: <GlassIcon />,
-      image: '/balconix/images/projects/project-3.jpg',
+      image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop',
       color: 'from-cyan-500 to-cyan-600'
     }
   ];
@@ -74,17 +74,17 @@ export const Materials: FC = () => {
     {
       id: 'single',
       thickness: '6mm',
-      image: '/balconix/images/projects/project-7.jpg'
+      image: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=300&h=300&fit=crop'
     },
     {
       id: 'double',
       thickness: '24mm',
-      image: '/balconix/images/projects/project-9.jpg'
+      image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=300&h=300&fit=crop'
     },
     {
       id: 'tinted',
       thickness: '24mm',
-      image: '/balconix/images/projects/project-11.jpg'
+      image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=300&h=300&fit=crop'
     }
   ];
 
@@ -111,7 +111,7 @@ export const Materials: FC = () => {
       <section className="relative pt-20 pb-16 md:pt-28 md:pb-24 bg-gradient-to-br from-brand-primary to-blue-800 text-white overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
-            backgroundImage: 'url("/balconix/images/projects/project-2.jpg")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1080&fit=crop")',
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }} />

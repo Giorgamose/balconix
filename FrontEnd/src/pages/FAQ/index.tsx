@@ -74,12 +74,27 @@ const faqCategories = [
   'warranty'
 ];
 
-const faqCounts = {
-  general: 5,
-  products: 5,
-  installation: 4,
-  pricing: 4,
-  warranty: 4
+// Map FAQ questions from translations by category
+const getQuestionsForCategory = (category: string, t: (key: string, options?: Record<string, unknown>) => string) => {
+  // Get all questions from translation
+  const allQuestions = [
+    { key: 'q1', category: 'installation' },
+    { key: 'q2', category: 'products' },
+    { key: 'q3', category: 'general' },
+    { key: 'q4', category: 'warranty' },
+    { key: 'q5', category: 'pricing' },
+    { key: 'q6', category: 'general' },
+    { key: 'q7', category: 'products' },
+    { key: 'q8', category: 'pricing' }
+  ];
+
+  return allQuestions
+    .filter(q => category === 'all' || q.category === category)
+    .map(q => ({
+      id: q.key,
+      question: t(`faq.questions.${q.key}.question`),
+      answer: t(`faq.questions.${q.key}.answer`)
+    }));
 };
 
 export const FAQ: FC = () => {
@@ -194,24 +209,20 @@ export const FAQ: FC = () => {
                 </div>
 
                 <div className="divide-y divide-gray-100">
-                  {Array.from({ length: faqCounts[activeCategory as keyof typeof faqCounts] || 5 }).map((_, index) => {
-                    const itemId = `${activeCategory}-${index}`;
-                    const question = t(`faq.items.${activeCategory}.q${index + 1}.question`);
-                    const answer = t(`faq.items.${activeCategory}.q${index + 1}.answer`);
-                    
+                  {getQuestionsForCategory(activeCategory, t).map((item) => {
                     // Filter by search query
-                    if (searchQuery && !question.toLowerCase().includes(searchQuery.toLowerCase()) && 
-                        !answer.toLowerCase().includes(searchQuery.toLowerCase())) {
+                    if (searchQuery && !item.question.toLowerCase().includes(searchQuery.toLowerCase()) && 
+                        !item.answer.toLowerCase().includes(searchQuery.toLowerCase())) {
                       return null;
                     }
 
                     return (
                       <FAQItem
-                        key={itemId}
-                        question={question}
-                        answer={answer}
-                        isOpen={openItems[itemId] || false}
-                        onToggle={() => toggleItem(itemId)}
+                        key={item.id}
+                        question={item.question}
+                        answer={item.answer}
+                        isOpen={openItems[item.id] || false}
+                        onToggle={() => toggleItem(item.id)}
                       />
                     );
                   })}

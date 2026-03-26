@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useContactActions } from '@hooks/index';
@@ -35,10 +36,25 @@ export const Footer: FC = () => {
   const { t } = useTranslation();
   const { handleWhatsApp, handleMessenger } = useContactActions();
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  // Check if we're on the home page
+  const isHomePage = location.pathname === '/' || location.pathname === '';
 
   const handleNavClick = (href: string) => {
     const sectionId = href.replace('#', '');
-    scrollToElement(sectionId);
+    
+    // If we're not on the home page, navigate to home first then scroll
+    if (!isHomePage) {
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        scrollToElement(sectionId);
+      }, 100);
+    } else {
+      scrollToElement(sectionId);
+    }
   };
 
   return (

@@ -40,7 +40,7 @@ const itemVariants = {
   visible: { opacity: 1, y: 0 }
 };
 
-// Portfolio projects data - using real project images
+// Portfolio projects data - using professional balcony/glass images
 const portfolioProjects = [
   {
     id: 1,
@@ -49,9 +49,9 @@ const portfolioProjects = [
     location: 'Tbilisi, Vake',
     year: '2025',
     images: [
-      '/balconix/images/projects/project-1.jpg',
-      '/balconix/images/projects/project-2.jpg',
-      '/balconix/images/projects/project-3.jpg'
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop'
     ],
     stats: { area: '12', duration: '3', floors: '1' }
   },
@@ -62,8 +62,8 @@ const portfolioProjects = [
     location: 'Tbilisi, Saburtalo',
     year: '2025',
     images: [
-      '/balconix/images/projects/project-4.jpg',
-      '/balconix/images/projects/project-5.jpg'
+      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=600&fit=crop'
     ],
     stats: { area: '8', duration: '2', floors: '1' }
   },
@@ -74,8 +74,8 @@ const portfolioProjects = [
     location: 'Tbilisi, Old Town',
     year: '2024',
     images: [
-      '/balconix/images/projects/project-6.jpg',
-      '/balconix/images/projects/project-7.jpg'
+      'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop'
     ],
     stats: { area: '45', duration: '7', floors: '3' }
   },
@@ -86,8 +86,8 @@ const portfolioProjects = [
     location: 'Batumi',
     year: '2024',
     images: [
-      '/balconix/images/projects/project-8.jpg',
-      '/balconix/images/projects/project-9.jpg'
+      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop'
     ],
     stats: { area: '15', duration: '4', floors: '1' }
   },
@@ -98,8 +98,8 @@ const portfolioProjects = [
     location: 'Tbilisi, Avlabari',
     year: '2024',
     images: [
-      '/balconix/images/projects/project-10.jpg',
-      '/balconix/images/projects/project-11.jpg'
+      'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop'
     ],
     stats: { area: '120', duration: '14', floors: '5' }
   },
@@ -110,8 +110,8 @@ const portfolioProjects = [
     location: 'Kutaisi',
     year: '2024',
     images: [
-      '/balconix/images/projects/project-12.jpg',
-      '/balconix/images/projects/project-13.jpg'
+      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=600&fit=crop'
     ],
     stats: { area: '10', duration: '3', floors: '1' }
   },
@@ -122,7 +122,7 @@ const portfolioProjects = [
     location: 'Tbilisi, Gldani',
     year: '2023',
     images: [
-      '/balconix/images/projects/project-14.jpg'
+      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&h=600&fit=crop'
     ],
     stats: { area: '9', duration: '2', floors: '1' }
   },
@@ -133,8 +133,8 @@ const portfolioProjects = [
     location: 'Tbilisi, Didube',
     year: '2023',
     images: [
-      '/balconix/images/projects/project-15.jpg',
-      '/balconix/images/projects/project-16.jpg'
+      'https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop'
     ],
     stats: { area: '80', duration: '10', floors: '4' }
   },
@@ -145,8 +145,8 @@ const portfolioProjects = [
     location: 'Tbilisi, Vera',
     year: '2023',
     images: [
-      '/balconix/images/projects/project-17.jpg',
-      '/balconix/images/projects/project-18.jpg'
+      'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&h=600&fit=crop'
     ],
     stats: { area: '14', duration: '4', floors: '1' }
   }

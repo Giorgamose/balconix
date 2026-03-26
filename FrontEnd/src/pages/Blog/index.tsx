@@ -35,13 +35,13 @@ const itemVariants = {
   visible: { opacity: 1, y: 0 }
 };
 
-// Blog posts data - using real project images
+// Blog posts data - using professional stock images
 const blogPosts = [
   {
     id: 1,
     slug: 'benefits-of-balcony-glazing',
     category: 'tips',
-    image: '/balconix/images/projects/project-1.jpg',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=500&fit=crop',
     date: '2026-03-20',
     readTime: 5,
     featured: true
@@ -50,7 +50,7 @@ const blogPosts = [
     id: 2,
     slug: 'choosing-right-glass-type',
     category: 'guide',
-    image: '/balconix/images/projects/project-3.jpg',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop',
     date: '2026-03-15',
     readTime: 7,
     featured: true
@@ -59,7 +59,7 @@ const blogPosts = [
     id: 3,
     slug: 'maintenance-tips',
     category: 'tips',
-    image: '/balconix/images/projects/project-5.jpg',
+    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=500&fit=crop',
     date: '2026-03-10',
     readTime: 4,
     featured: false
@@ -68,7 +68,7 @@ const blogPosts = [
     id: 4,
     slug: 'energy-efficiency',
     category: 'guide',
-    image: '/balconix/images/projects/project-7.jpg',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop',
     date: '2026-03-05',
     readTime: 6,
     featured: false
@@ -77,7 +77,7 @@ const blogPosts = [
     id: 5,
     slug: 'sliding-vs-folding',
     category: 'comparison',
-    image: '/balconix/images/projects/project-9.jpg',
+    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=500&fit=crop',
     date: '2026-02-28',
     readTime: 8,
     featured: false
@@ -86,7 +86,7 @@ const blogPosts = [
     id: 6,
     slug: 'winter-preparation',
     category: 'tips',
-    image: '/balconix/images/projects/project-11.jpg',
+    image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&h=500&fit=crop',
     date: '2026-02-20',
     readTime: 5,
     featured: false
@@ -95,7 +95,7 @@ const blogPosts = [
     id: 7,
     slug: 'frameless-glazing-trends',
     category: 'news',
-    image: '/balconix/images/projects/project-13.jpg',
+    image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=500&fit=crop',
     date: '2026-02-15',
     readTime: 4,
     featured: false
@@ -104,7 +104,7 @@ const blogPosts = [
     id: 8,
     slug: 'common-mistakes',
     category: 'guide',
-    image: '/balconix/images/projects/project-15.jpg',
+    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&h=500&fit=crop',
     date: '2026-02-10',
     readTime: 6,
     featured: false
