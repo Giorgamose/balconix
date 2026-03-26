@@ -1,8 +1,9 @@
 import { FC, useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useScrollPosition, useLanguage, useContactActions } from '@hooks/index';
-import { NAV_ITEMS } from '@utils/constants';
+import { NAV_ITEMS, PAGE_NAV_ITEMS } from '@utils/constants';
 import { scrollToElement } from '@utils/helpers';
 import Button from '@components/common/Button';
 
@@ -32,6 +33,8 @@ export const Navbar: FC = () => {
   const { handleCallPrimary } = useContactActions();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isLangDropdownOpen, setIsLangDropdownOpen] = useState(false);
+  const [isMoreDropdownOpen, setIsMoreDropdownOpen] = useState(false);
+  useLocation(); // Used for potential future route-based styling
 
   // Close mobile menu on resize
   useEffect(() => {
@@ -105,6 +108,43 @@ export const Navbar: FC = () => {
                   {t(`nav.${item.key}`)}
                 </a>
               ))}
+
+              {/* More Dropdown */}
+              <div className="relative">
+                <button
+                  onClick={() => setIsMoreDropdownOpen(!isMoreDropdownOpen)}
+                  onBlur={() => setTimeout(() => setIsMoreDropdownOpen(false), 150)}
+                  className={`flex items-center gap-1 font-medium transition-colors hover:text-brand-primary ${
+                    isAtTop ? 'text-white/90 hover:text-white' : 'text-neutral-dark-gray'
+                  }`}
+                >
+                  {t('nav.more')}
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+
+                <AnimatePresence>
+                  {isMoreDropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="absolute left-0 mt-2 py-2 w-48 bg-white rounded-xl shadow-medium overflow-hidden"
+                    >
+                      {PAGE_NAV_ITEMS.map((item) => (
+                        <Link
+                          key={item.key}
+                          to={item.href}
+                          className="block px-4 py-2 text-neutral-dark-gray hover:bg-neutral-light-gray hover:text-brand-primary transition-colors"
+                        >
+                          {t(`nav.${item.key}`)}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             </div>
 
             {/* Right Section */}
@@ -230,6 +270,21 @@ export const Navbar: FC = () => {
                   >
                     {t(`nav.${item.key}`)}
                   </a>
+                ))}
+
+                {/* Divider */}
+                <div className="my-4 mx-6 border-t border-neutral-light-gray" />
+
+                {/* Page Links */}
+                {PAGE_NAV_ITEMS.map((item) => (
+                  <Link
+                    key={item.key}
+                    to={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="block px-6 py-3 text-lg font-medium text-neutral-dark-gray hover:bg-neutral-light-gray hover:text-brand-primary transition-colors"
+                  >
+                    {t(`nav.${item.key}`)}
+                  </Link>
                 ))}
               </nav>
 

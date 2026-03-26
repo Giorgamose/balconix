@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__azure-devops__repo_list_repos_by_project"
+    ]
+  }
+}

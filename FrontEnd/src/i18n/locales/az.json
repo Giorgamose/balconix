@@ -9,7 +9,14 @@
     "gallery": "Qalereya",
     "about": "Haqqımızda",
     "contact": "Əlaqə",
-    "requestCallback": "Geri zəng edin"
+    "requestCallback": "Geri zəng edin",
+    "more": "Daha çox",
+    "materials": "Materiallar",
+    "team": "Komandamız",
+    "portfolio": "Portfolio",
+    "calculator": "Kalkulyator",
+    "faq": "FAQ",
+    "blog": "Bloq"
   },
   "hero": {
     "title": "Balkon Şüşələnməsi",
@@ -163,5 +170,294 @@
     "back": "Geri",
     "next": "Növbəti",
     "previous": "Əvvəlki"
+  },
+  "materials": {
+    "title": "Materiallar və Keyfiyyət",
+    "subtitle": "Biz yalnız sertifikatlaşdırılmış, idxal edilmiş ən yüksək keyfiyyətli materiallardan istifadə edirik",
+    "hero": {
+      "title": "Premium Keyfiyyətli Materiallar",
+      "subtitle": "Aparıcı Avropa istehsalçılarından idxal edilmişdir"
+    },
+    "systems": {
+      "title": "Sistemlərimiz",
+      "pvc": {
+        "name": "PVC Sistemləri",
+        "description": "Əla istilik izolyasiyası ilə yüksək keyfiyyətli PVC profillər",
+        "features": ["Enerji səmərəli", "Davamlı konstruksiya", "Asan qulluq", "Havaya davamlı"]
+      },
+      "aluminum": {
+        "name": "Alüminium Sistemləri",
+        "description": "Müasir estetika üçün yüngül, lakin möhkəm alüminium çərçivələr",
+        "features": ["Nazik profillər", "Korroziyaya davamlı", "Müasir görünüş", "Uzunömürlü"]
+      },
+      "frameless": {
+        "name": "Çərçivəsiz Şüşə",
+        "description": "Təmperli təhlükəsiz şüşə ilə məhdudiyyətsiz panoramik görünüşlər",
+        "features": ["Panoramik görünüş", "Bərkidilmiş şüşə", "Zərif dizayn", "Maksimum işıq"]
+      }
+    },
+    "glass": {
+      "title": "Şüşə Variantları",
+      "single": {
+        "name": "Tək qatlı şüşələnmə",
+        "description": "Mülayim iqlim üçün iqtisadi variant"
+      },
+      "double": {
+        "name": "İki qatlı şüşələnmə",
+        "description": "Bütün fəsillər üçün üstün izolyasiya"
+      },
+      "tinted": {
+        "name": "Tonlanmış şüşə",
+        "description": "UV qorunması və məxfilik"
+      }
+    },
+    "certifications": {
+      "title": "Sertifikatlar və Standartlar",
+      "subtitle": "Bütün materiallarımız beynəlxalq keyfiyyət standartlarına uyğundur",
+      "iso": "ISO 9001 Sertifikatlaşdırılıb",
+      "ce": "CE İşarələnməsi",
+      "quality": "Keyfiyyət Test Edilib"
+    },
+    "warranty": {
+      "title": "5 İllik Zəmanət",
+      "description": "Bütün məhsullarımız materialları və işçiliyi əhatə edən geniş 5 illik zəmanətlə gəlir"
+    },
+    "cta": {
+      "title": "Daha çox bilmək istəyirsiniz?",
+      "subtitle": "Materiallarımız haqqında ətraflı məlumat üçün bizimlə əlaqə saxlayın",
+      "button": "Məsləhət alın"
+    }
+  },
+  "team": {
+    "title": "Komandamız",
+    "subtitle": "Balconix peşəkarları ilə tanış olun",
+    "hero": {
+      "title": "Biz Kimik",
+      "subtitle": "5 illik təcrübə, yüzlərlə məmnun müştəri"
+    },
+    "story": {
+      "title": "Bizim Hekayəmiz",
+      "description": "5 il əvvəl təsis edilən Balconix Gürcüstanda etibar edilən balkon şüşələmə mütəxəssislərindən birinə çevrildi. Peşəkar komandamız əlverişli qiymətlərlə keyfiyyətli iş təqdim etməyə hazırdır.",
+      "years": "5+",
+      "yearsLabel": "İllik Təcrübə",
+      "projects": "500+",
+      "projectsLabel": "Tamamlanmış Layihə",
+      "customers": "450+",
+      "customersLabel": "Məmnun Müştəri"
+    },
+    "values": {
+      "title": "Dəyərlərimiz",
+      "quality": {
+        "title": "Keyfiyyət Birinci",
+        "description": "Material keyfiyyətindən heç vaxt güzəştə getmirik"
+      },
+      "service": {
+        "title": "Müştəri Xidməti",
+        "description": "Sizin məmnuniyyətiniz bizim prioritetimizdir"
+      },
+      "price": {
+        "title": "Ədalətli Qiymətlər",
+        "description": "Əlverişli qiymətlərlə keyfiyyətli iş"
+      }
+    },
+    "process": {
+      "title": "Prosesimiz",
+      "subtitle": "Məsləhətdən tamamlamaya qədər",
+      "step1": {
+        "title": "Pulsuz Məsləhət",
+        "description": "Evinizə gəlib ehtiyaclarınızı müzakirə edirik"
+      },
+      "step2": {
+        "title": "Ölçmə",
+        "description": "Mükəmməl uyğunluq üçün dəqiq ölçmələr"
+      },
+      "step3": {
+        "title": "İstehsal",
+        "description": "Sizin spesifikasiyalarınıza uyğun istehsal"
+      },
+      "step4": {
+        "title": "Çatdırılma",
+        "description": "Bütün materialların təhlükəsiz çatdırılması"
+      },
+      "step5": {
+        "title": "Quraşdırma",
+        "description": "Ekspertlərimiz tərəfindən peşəkar quraşdırma"
+      },
+      "step6": {
+        "title": "Keyfiyyət Yoxlaması",
+        "description": "Son yoxlama və təhvil"
+      }
+    },
+    "members": {
+      "title": "Komandamızla Tanış Olun",
+      "role": {
+        "director": "Direktor",
+        "manager": "Layihə Meneceri",
+        "installer": "Quraşdırma Mütəxəssisi",
+        "consultant": "Məsləhətçi",
+        "designer": "Dizayner"
+      }
+    },
+    "cta": {
+      "title": "Bizimlə işləməyə hazırsınız?",
+      "button": "Komandamızla əlaqə saxlayın"
+    }
+  },
+  "faq": {
+    "title": "Tez-tez Verilən Suallar",
+    "subtitle": "Xidmətlərimiz haqqında ümumi suallara cavablar tapın",
+    "searchPlaceholder": "Sual axtarın...",
+    "categories": {
+      "all": "Hamısı",
+      "general": "Ümumi",
+      "products": "Məhsullar",
+      "installation": "Quraşdırma",
+      "pricing": "Qiymətlər",
+      "warranty": "Zəmanət"
+    },
+    "questions": {
+      "q1": {
+        "question": "Quraşdırma nə qədər vaxt aparır?",
+        "answer": "Tipik quraşdırma balkonun ölçüsündən və sistem növündən asılı olaraq 3-5 iş günü çəkir.",
+        "category": "installation"
+      },
+      "q2": {
+        "question": "Hansı materiallardan istifadə edirsiniz?",
+        "answer": "Biz tək və ya ikiqat şüşəli premium idxal PVC və alüminium profillərdən istifadə edirik, hamısı Avropa standartlarına uyğun sertifikatlaşdırılıb.",
+        "category": "products"
+      },
+      "q3": {
+        "question": "Ölçmə həqiqətən pulsuzdur?",
+        "answer": "Bəli, heç bir öhdəlik olmadan tamamilə pulsuz ölçmə və məsləhət təqdim edirik.",
+        "category": "general"
+      },
+      "q4": {
+        "question": "Zəmanət müddəti nə qədərdir?",
+        "answer": "Bütün quraşdırmalarımız materialları və işçiliyi əhatə edən 5 illik zəmanətlə gəlir.",
+        "category": "warranty"
+      },
+      "q5": {
+        "question": "Balkon şüşələnməsi nə qədərdir?",
+        "answer": "Qiymət ölçüdən, sistem növündən və şüşə variantlarından asılıdır. Təxmini qiymət üçün kalkulyatorumuzu istifadə edin və ya ətraflı qiymət üçün bizimlə əlaqə saxlayın.",
+        "category": "pricing"
+      },
+      "q6": {
+        "question": "Gürcüstanın bütün bölgələrində işləyirsiniz?",
+        "answer": "Bəli, biz Tbilisi, Batumi və digər şəhərlər daxil olmaqla bütün Gürcüstanda xidmət göstəririk.",
+        "category": "general"
+      },
+      "q7": {
+        "question": "Tək qatlı və ikiqat şüşələnmə arasında fərq nədir?",
+        "answer": "İkiqat şüşələnmə daha yaxşı istilik və səs izolyasiyası təmin edir. İlin bütün fəsilləri üçün rahatlıq üçün tövsiyə olunur.",
+        "category": "products"
+      },
+      "q8": {
+        "question": "Hissə-hissə ödəyə bilərəm?",
+        "answer": "Bəli, hissə-hissə ödəmə planları daxil olmaqla çevik ödəmə variantları təklif edirik.",
+        "category": "pricing"
+      }
+    },
+    "notFound": "Axtarışınıza uyğun sual tapılmadı",
+    "cta": {
+      "title": "Hələ suallarınız var?",
+      "subtitle": "Bizimlə əlaqə saxlayın, kömək etməkdən məmnun olarıq",
+      "button": "Bizimlə əlaqə"
+    }
+  },
+  "portfolio": {
+    "title": "Portfoliomuz",
+    "subtitle": "Tamamlanmış layihələrimizə baxın",
+    "hero": {
+      "title": "Layihə Qalereyası",
+      "subtitle": "İşimizin keyfiyyətini görün"
+    },
+    "filters": {
+      "all": "Bütün Layihələr",
+      "sliding": "Sürüşmə Sistemləri",
+      "folding": "Qatlanan Sistemlər",
+      "frameless": "Çərçivəsiz"
+    },
+    "project": {
+      "location": "Yer",
+      "type": "Sistem Növü",
+      "size": "Ölçü",
+      "viewDetails": "Ətraflı Bax"
+    },
+    "cta": {
+      "title": "Gördükləriniz xoşunuza gəldi?",
+      "subtitle": "Mükəmməl balkonunuzu yaradaq",
+      "button": "Başlayın"
+    }
+  },
+  "calculator": {
+    "title": "Qiymət Kalkulyatoru",
+    "subtitle": "Balkon şüşələmə layihəniz üçün təxmini qiymət alın",
+    "hero": {
+      "title": "Qiymətinizi Hesablayın",
+      "subtitle": "Sürətli və asan qiymət qiymətləndirməsi"
+    },
+    "form": {
+      "system": "Sistem Növü",
+      "selectSystem": "Sistem seçin",
+      "glass": "Şüşə Növü",
+      "selectGlass": "Şüşə növü seçin",
+      "width": "En (metr)",
+      "height": "Hündürlük (metr)",
+      "options": "Əlavə Seçimlər",
+      "mosquitoNet": "Ağcaqanad toru",
+      "blinds": "Jalyuzlər",
+      "handleColor": "Dəstək rəngi"
+    },
+    "systems": {
+      "sliding": "Sürüşmə Sistemi",
+      "folding": "Qatlanan Sistem",
+      "frameless": "Çərçivəsiz Şüşə"
+    },
+    "glassTypes": {
+      "single": "Tək qatlı şüşələnmə",
+      "double": "İki qatlı şüşələnmə",
+      "tinted": "Tonlanmış şüşə"
+    },
+    "result": {
+      "title": "Təxmini Qiymət",
+      "disclaimer": "Bu təxmini qiymətdir. Son qiymət xüsusi tələblərə görə dəyişə bilər.",
+      "includesVat": "Qiymətə ƏDV daxildir",
+      "from": "-dən"
+    },
+    "cta": {
+      "title": "Dəqiq Qiymət Alın",
+      "subtitle": "Ətraflı qiymət üçün bizimlə əlaqə saxlayın",
+      "button": "Qiymət istəyin",
+      "whatsapp": "WhatsApp ilə göndərin"
+    }
+  },
+  "blog": {
+    "title": "Bloq və Xəbərlər",
+    "subtitle": "Balconix-dən məsləhətlər, bələdçilər və yeniliklər",
+    "hero": {
+      "title": "Bloqumuz",
+      "subtitle": "Ən son xəbərlər və məsləhətlərdən xəbərdar olun"
+    },
+    "categories": {
+      "all": "Bütün Yazılar",
+      "tips": "Məsləhətlər və Bələdçilər",
+      "news": "Şirkət Xəbərləri",
+      "projects": "Layihə Hekayələri"
+    },
+    "featured": "Seçilmiş",
+    "readMore": "Daha çox oxu",
+    "readTime": "dəq oxunma",
+    "newsletter": {
+      "title": "Bülletenimizə abunə olun",
+      "subtitle": "Ən son yeniliklər və məsləhətləri birbaşa e-poçtunuza alın",
+      "placeholder": "E-poçtunuz",
+      "button": "Abunə ol",
+      "success": "Abunə olduğunuz üçün təşəkkür edirik!"
+    },
+    "cta": {
+      "title": "Sualınız var?",
+      "subtitle": "Ekspert məsləhəti üçün bizimlə əlaqə saxlayın",
+      "button": "Bizimlə əlaqə"
+    }
   }
 }

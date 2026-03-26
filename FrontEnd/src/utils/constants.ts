@@ -23,13 +23,23 @@ export const SOCIAL_LINKS = {
   facebook: CONTACT.FACEBOOK_URL,
 } as const;
 
-// Navigation Items
+// Navigation Items - Main menu with anchor links (for homepage sections)
 export const NAV_ITEMS = [
   { key: 'home', href: '#home' },
   { key: 'products', href: '#products' },
   { key: 'gallery', href: '#gallery' },
   { key: 'about', href: '#about' },
   { key: 'contact', href: '#quick-contact' },
+] as const;
+
+// Navigation Items - Pages (for router links)
+export const PAGE_NAV_ITEMS = [
+  { key: 'materials', href: '/materials' },
+  { key: 'team', href: '/team' },
+  { key: 'portfolio', href: '/portfolio' },
+  { key: 'calculator', href: '/calculator' },
+  { key: 'faq', href: '/faq' },
+  { key: 'blog', href: '/blog' },
 ] as const;
 
 // Product Types

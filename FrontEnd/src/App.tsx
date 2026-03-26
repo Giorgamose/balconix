@@ -10,6 +10,12 @@ import Loader from '@components/common/Loader';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('@pages/Home'));
+const Materials = lazy(() => import('@pages/Materials'));
+const Team = lazy(() => import('@pages/Team'));
+const FAQ = lazy(() => import('@pages/FAQ'));
+const Portfolio = lazy(() => import('@pages/Portfolio'));
+const Calculator = lazy(() => import('@pages/Calculator'));
+const Blog = lazy(() => import('@pages/Blog'));
 const NotFound = lazy(() => import('@pages/NotFound'));
 
 const App: FC = () => {
@@ -25,6 +31,12 @@ const App: FC = () => {
             <AnimatePresence mode="wait">
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/materials" element={<Materials />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/faq" element={<FAQ />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/calculator" element={<Calculator />} />
+                <Route path="/blog" element={<Blog />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </AnimatePresence>

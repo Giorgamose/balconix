@@ -9,7 +9,14 @@
     "gallery": "Gallery",
     "about": "About",
     "contact": "Contact",
-    "requestCallback": "Request Callback"
+    "requestCallback": "Request Callback",
+    "more": "More",
+    "materials": "Materials",
+    "team": "Our Team",
+    "portfolio": "Portfolio",
+    "calculator": "Calculator",
+    "faq": "FAQ",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Balcony Glazing",
@@ -163,5 +170,374 @@
     "back": "Back",
     "next": "Next",
     "previous": "Previous"
+  },
+  "materials": {
+    "title": "Materials & Quality",
+    "subtitle": "We use only certified, imported materials of the highest quality",
+    "hero": {
+      "title": "Premium Quality Materials",
+      "subtitle": "Imported from leading European manufacturers"
+    },
+    "types": {
+      "title": "Our Frame Systems",
+      "subtitle": "Choose from our range of high-quality glazing systems"
+    },
+    "systems": {
+      "title": "Our Systems",
+      "pvc": {
+        "name": "PVC Systems",
+        "description": "High-quality PVC profiles with excellent thermal insulation. Energy efficient and durable for Georgian climate.",
+        "features": ["Energy efficient", "Durable construction", "Easy maintenance", "Weather resistant"]
+      },
+      "aluminum": {
+        "name": "Aluminum Systems",
+        "description": "Lightweight yet strong aluminum frames for modern aesthetics. Slim profiles for maximum glass area.",
+        "features": ["Slim profiles", "Corrosion resistant", "Modern look", "Long lasting"]
+      },
+      "frameless": {
+        "name": "Frameless Glass",
+        "description": "Unobstructed panoramic views with tempered safety glass. Maximum natural light and elegant appearance.",
+        "features": ["Panoramic view", "Tempered glass", "Elegant design", "Maximum light"]
+      }
+    },
+    "glass": {
+      "title": "Glass Options",
+      "subtitle": "Select the right glass type for your needs",
+      "single": {
+        "name": "Single Glazing",
+        "description": "Economical option for mild climates and covered balconies"
+      },
+      "double": {
+        "name": "Double Glazing",
+        "description": "Superior thermal and sound insulation for year-round comfort"
+      },
+      "tinted": {
+        "name": "Tinted Glass",
+        "description": "UV protection, privacy, and reduced heat gain"
+      }
+    },
+    "certifications": {
+      "title": "Certifications & Standards",
+      "subtitle": "All our materials meet international quality standards",
+      "iso": "ISO 9001 Certified",
+      "ce": "CE Marking",
+      "quality": "Quality Tested"
+    },
+    "warranty": {
+      "title": "5-Year Warranty",
+      "description": "All our products come with a comprehensive 5-year warranty covering materials, installation, and workmanship. We stand behind the quality of our work.",
+      "frames": "Frame profiles",
+      "glassLabel": "Glass panels",
+      "hardware": "Hardware & fittings",
+      "seals": "Seals & gaskets",
+      "installation": "Installation work"
+    },
+    "cta": {
+      "title": "Want to Know More?",
+      "subtitle": "Contact us for detailed information about our materials",
+      "button": "Get Consultation"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the professionals behind Balconix",
+    "hero": {
+      "title": "Who We Are",
+      "subtitle": "5 years of experience, hundreds of satisfied customers"
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "Founded 5 years ago, Balconix has grown to become one of Georgia's trusted balcony glazing specialists. Our team of dedicated professionals is committed to delivering quality work at affordable prices. We take pride in transforming balconies across Tbilisi and beyond.",
+      "years": "5+",
+      "yearsLabel": "Years Experience",
+      "projects": "500+",
+      "projectsLabel": "Completed Projects",
+      "customers": "450+",
+      "customersLabel": "Happy Customers"
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality First",
+        "description": "We never compromise on material quality or workmanship"
+      },
+      "trust": {
+        "title": "Trust & Reliability",
+        "description": "We deliver on our promises, every time"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Modern solutions for modern living spaces"
+      },
+      "customer": {
+        "title": "Customer Focus",
+        "description": "Your satisfaction is our top priority"
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "subtitle": "From consultation to completion - simple and transparent",
+      "consultation": {
+        "title": "Free Consultation",
+        "description": "We discuss your needs and provide expert advice"
+      },
+      "measurement": {
+        "title": "Precise Measurement",
+        "description": "Our specialist visits for accurate measurements"
+      },
+      "design": {
+        "title": "Custom Design",
+        "description": "We create a solution tailored to your balcony"
+      },
+      "production": {
+        "title": "Quality Production",
+        "description": "Your glazing is manufactured to exact specifications"
+      },
+      "installation": {
+        "title": "Expert Installation",
+        "description": "Professional installation by our trained team"
+      },
+      "handover": {
+        "title": "Final Handover",
+        "description": "Quality check and warranty documentation"
+      }
+    },
+    "members": {
+      "title": "Meet Our Team",
+      "founder": {
+        "name": "Giorgi Chikovani",
+        "role": "Founder & CEO"
+      },
+      "director": {
+        "name": "Davit Makharadze",
+        "role": "Operations Director"
+      },
+      "projectManager": {
+        "name": "Ana Gelashvili",
+        "role": "Project Manager"
+      },
+      "marketingManager": {
+        "name": "Nino Kvachadze",
+        "role": "Marketing Manager"
+      },
+      "installationLead": {
+        "name": "Levan Beridze",
+        "role": "Lead Installer"
+      },
+      "installer": {
+        "role": "Installation Specialist"
+      }
+    },
+    "cta": {
+      "title": "Ready to Work with Us?",
+      "subtitle": "Contact our team today for a free consultation",
+      "button": "Contact Our Team"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services",
+    "searchPlaceholder": "Search questions...",
+    "categories": {
+      "all": "All",
+      "general": "General",
+      "products": "Products",
+      "installation": "Installation",
+      "pricing": "Pricing",
+      "warranty": "Warranty"
+    },
+    "questions": {
+      "q1": {
+        "question": "How long does installation take?",
+        "answer": "Typical installation takes 3-5 working days depending on the balcony size and system type.",
+        "category": "installation"
+      },
+      "q2": {
+        "question": "What materials do you use?",
+        "answer": "We use premium imported PVC and aluminum profiles with single or double glazed glass, all certified to European standards.",
+        "category": "products"
+      },
+      "q3": {
+        "question": "Is measurement really free?",
+        "answer": "Yes, we provide completely free measurement and consultation with no obligation.",
+        "category": "general"
+      },
+      "q4": {
+        "question": "What is the warranty period?",
+        "answer": "All our installations come with a 5-year warranty covering both materials and workmanship.",
+        "category": "warranty"
+      },
+      "q5": {
+        "question": "How much does balcony glazing cost?",
+        "answer": "Pricing depends on size, system type, and glass options. Use our calculator for an estimate or contact us for a detailed quote.",
+        "category": "pricing"
+      },
+      "q6": {
+        "question": "Do you work in all regions of Georgia?",
+        "answer": "Yes, we provide services throughout Georgia, including Tbilisi, Batumi, and other cities.",
+        "category": "general"
+      },
+      "q7": {
+        "question": "What is the difference between single and double glazing?",
+        "answer": "Double glazing provides better thermal and sound insulation. It's recommended for year-round comfort.",
+        "category": "products"
+      },
+      "q8": {
+        "question": "Can I make partial payment?",
+        "answer": "Yes, we offer flexible payment options including partial payment plans.",
+        "category": "pricing"
+      }
+    },
+    "notFound": "No questions found matching your search",
+    "cta": {
+      "title": "Still Have Questions?",
+      "subtitle": "Contact us and we'll be happy to help",
+      "button": "Contact Us"
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "subtitle": "Browse our completed projects across Georgia",
+    "hero": {
+      "title": "Project Gallery",
+      "subtitle": "See the quality of our work - over 500 completed projects"
+    },
+    "filters": {
+      "all": "All Projects",
+      "sliding": "Sliding Systems",
+      "folding": "Folding Systems",
+      "frameless": "Frameless"
+    },
+    "project": {
+      "location": "Location",
+      "type": "System Type",
+      "size": "Size",
+      "viewDetails": "View Details",
+      "viewProject": "View Project"
+    },
+    "stats": {
+      "completed": "Completed Projects",
+      "cities": "Cities Covered",
+      "satisfaction": "Customer Satisfaction"
+    },
+    "cta": {
+      "title": "Like What You See?",
+      "subtitle": "Let's create your perfect balcony. Contact us for a free consultation.",
+      "button": "Get Started"
+    }
+  },
+  "calculator": {
+    "title": "Price Calculator",
+    "subtitle": "Get an estimate for your balcony glazing project",
+    "hero": {
+      "title": "Calculate Your Price",
+      "subtitle": "Quick and easy price estimation"
+    },
+    "popular": "Popular",
+    "steps": {
+      "system": "Choose System Type",
+      "glass": "Select Glass Type",
+      "dimensions": "Enter Dimensions",
+      "options": "Additional Options",
+      "contact": "Your Contact Info"
+    },
+    "systems": {
+      "sliding": {
+        "name": "Sliding System"
+      },
+      "folding": {
+        "name": "Folding System"
+      },
+      "frameless": {
+        "name": "Frameless Glass"
+      }
+    },
+    "glass": {
+      "single": {
+        "name": "Single Glazing"
+      },
+      "double": {
+        "name": "Double Glazing"
+      },
+      "tinted": {
+        "name": "Tinted Glass"
+      }
+    },
+    "dimensions": {
+      "width": "Width",
+      "height": "Height",
+      "panels": "Number of Panels",
+      "area": "Total Area"
+    },
+    "options": {
+      "mosquitoNet": {
+        "name": "Mosquito Net"
+      },
+      "blinds": {
+        "name": "Blinds"
+      },
+      "handles": {
+        "name": "Premium Handles"
+      },
+      "locks": {
+        "name": "Security Locks"
+      }
+    },
+    "contact": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "phone": "Phone Number"
+    },
+    "submit": "Calculate Price",
+    "summary": {
+      "title": "Price Summary",
+      "system": "System Cost",
+      "glass": "Glass Upgrade",
+      "options": "Additional Options",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "total": "Estimated Total",
+      "approximate": "* Final price may vary after measurement"
+    },
+    "features": {
+      "measurement": "Free measurement included",
+      "warranty": "5-year warranty",
+      "installation": "Professional installation"
+    },
+    "whatsapp": "Get Quote on WhatsApp",
+    "result": {
+      "title": "Thank You!",
+      "message": "We will contact you shortly with a detailed quote.",
+      "estimate": "Your Estimate"
+    }
+  },
+  "blog": {
+    "title": "Blog & News",
+    "subtitle": "Tips, guides, and updates from Balconix",
+    "hero": {
+      "title": "Our Blog",
+      "subtitle": "Stay informed with the latest news and tips"
+    },
+    "categories": {
+      "all": "All Posts",
+      "tips": "Tips & Guides",
+      "news": "Company News",
+      "projects": "Project Stories"
+    },
+    "featured": "Featured",
+    "readMore": "Read More",
+    "readTime": "min read",
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "subtitle": "Get the latest updates and tips directly to your inbox",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "success": "Thank you for subscribing!"
+    },
+    "cta": {
+      "title": "Have a Question?",
+      "subtitle": "Contact us for expert advice",
+      "button": "Contact Us"
+    }
   }
 }
