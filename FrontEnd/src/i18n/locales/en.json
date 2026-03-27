@@ -319,29 +319,31 @@
     "process": {
       "title": "How We Work",
       "subtitle": "Simple, transparent process from start to finish",
-      "consultation": {
-        "title": "Free Consultation",
-        "description": "We discuss your needs and provide expert advice"
-      },
-      "measurement": {
-        "title": "Precise Measurement",
-        "description": "Our specialist visits for accurate measurements"
-      },
-      "design": {
-        "title": "Custom Design",
-        "description": "We create a solution tailored to your balcony"
-      },
-      "production": {
-        "title": "Quality Production",
-        "description": "Your glazing is manufactured to exact specifications"
-      },
-      "installation": {
-        "title": "Expert Installation",
-        "description": "Professional installation by our trained team"
-      },
-      "handover": {
-        "title": "Final Handover",
-        "description": "Quality check and warranty documentation"
+      "steps": {
+        "consultation": {
+          "title": "Free Consultation",
+          "description": "We discuss your needs and provide expert advice"
+        },
+        "measurement": {
+          "title": "Precise Measurement",
+          "description": "Our specialist visits for accurate measurements"
+        },
+        "design": {
+          "title": "Custom Design",
+          "description": "We create a solution tailored to your balcony"
+        },
+        "production": {
+          "title": "Quality Production",
+          "description": "Your glazing is manufactured to exact specifications"
+        },
+        "installation": {
+          "title": "Expert Installation",
+          "description": "Professional installation by our trained team"
+        },
+        "handover": {
+          "title": "Final Handover",
+          "description": "Quality check and warranty documentation"
+        }
       }
     },
     "video": {

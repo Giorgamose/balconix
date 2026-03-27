@@ -288,35 +288,31 @@
     "process": {
       "title": "Prosesimiz",
       "subtitle": "Məsləhətdən tamamlamaya qədər",
-      "consultation": "Pulsuz məsləhət və ölçmə",
-      "design": "Fərdi dizayn",
-      "production": "Dəqiq istehsal",
-      "delivery": "Təhlükəsiz çatdırılma",
-      "installation": "Peşəkar quraşdırma",
-      "handover": "Son yoxlama və təhvil",
-      "step1": {
-        "title": "Pulsuz Məsləhət",
-        "description": "Evinizə gəlib ehtiyaclarınızı müzakirə edirik"
-      },
-      "step2": {
-        "title": "Ölçmə",
-        "description": "Mükəmməl uyğunluq üçün dəqiq ölçmələr"
-      },
-      "step3": {
-        "title": "İstehsal",
-        "description": "Sizin spesifikasiyalarınıza uyğun istehsal"
-      },
-      "step4": {
-        "title": "Çatdırılma",
-        "description": "Bütün materialların təhlükəsiz çatdırılması"
-      },
-      "step5": {
-        "title": "Quraşdırma",
-        "description": "Ekspertlərimiz tərəfindən peşəkar quraşdırma"
-      },
-      "step6": {
-        "title": "Keyfiyyət Yoxlaması",
-        "description": "Son yoxlama və təhvil"
+      "steps": {
+        "consultation": {
+          "title": "Pulsuz Məsləhət",
+          "description": "Ehtiyaclarınızı müzakirə edir və ekspert məsləhəti veririk"
+        },
+        "measurement": {
+          "title": "Dəqiq Ölçmə",
+          "description": "Mütəxəssisimiz dəqiq ölçmələr üçün ziyarət edir"
+        },
+        "design": {
+          "title": "Fərdi Dizayn",
+          "description": "Balkonunuza uyğun həll yaradırıq"
+        },
+        "production": {
+          "title": "Keyfiyyətli İstehsal",
+          "description": "Şüşələnməniz dəqiq spesifikasiyalara uyğun istehsal olunur"
+        },
+        "installation": {
+          "title": "Ekspert Quraşdırma",
+          "description": "Təcrübəli komandamız tərəfindən peşəkar quraşdırma"
+        },
+        "handover": {
+          "title": "Son Təhvil",
+          "description": "Keyfiyyət yoxlaması və zəmanət sənədləri"
+        }
       }
     },
     "members": {
