@@ -339,19 +339,30 @@
     "video": {
       "title": "Bizi İş Başında İzləyin",
       "subtitle": "Gürcüstanda balkonları necə çevirdiyimizi görün",
-      "play": "Video izlə"
+      "play": "Video izlə",
+      "comingSoon": "Video tezliklə"
     },
     "cta": {
       "title": "Bizimlə işləməyə hazırsınız?",
       "subtitle": "Pulsuz məsləhət üçün komandamızla əlaqə saxlayın",
-      "button": "Komandamızla əlaqə saxlayın"
+      "button": "Komandamızla əlaqə saxlayın",
+      "contact": "Bizimlə əlaqə",
+      "portfolio": "Portfoliomuza baxın"
     }
   },
   "faq": {
     "title": "Tez-tez Verilən Suallar",
     "subtitle": "Xidmətlərimiz haqqında ümumi suallara cavablar tapın",
+    "hero": {
+      "title": "Tez-tez Verilən Suallar",
+      "subtitle": "Balkon şüşələmə xidmətlərimiz haqqında cavablar tapın"
+    },
+    "search": {
+      "placeholder": "Sual axtarın..."
+    },
     "searchPlaceholder": "Sual axtarın...",
     "categories": {
+      "title": "Kateqoriyalar",
       "all": "Hamısı",
       "general": "Ümumi",
       "products": "Məhsullar",
@@ -402,6 +413,11 @@
       }
     },
     "notFound": "Axtarışınıza uyğun sual tapılmadı",
+    "contact": {
+      "title": "Hələ suallarınız var?",
+      "subtitle": "Bizimlə əlaqə saxlayın, kömək etməkdən məmnun olarıq",
+      "call": "Bizə zəng edin"
+    },
     "cta": {
       "title": "Hələ suallarınız var?",
       "subtitle": "Bizimlə əlaqə saxlayın, kömək etməkdən məmnun olarıq",

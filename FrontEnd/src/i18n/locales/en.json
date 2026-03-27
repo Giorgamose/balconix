@@ -347,12 +347,15 @@
     "video": {
       "title": "See Us In Action",
       "subtitle": "Watch how we transform balconies",
-      "play": "Watch Video"
+      "play": "Watch Video",
+      "comingSoon": "Video Coming Soon"
     },
     "cta": {
       "title": "Ready to Work with Us?",
       "subtitle": "Contact our team today for a free consultation",
-      "button": "Contact Our Team"
+      "button": "Contact Our Team",
+      "contact": "Contact Us",
+      "portfolio": "View Our Work"
     }
   },
   "faq": {
