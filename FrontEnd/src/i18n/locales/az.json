@@ -220,7 +220,21 @@
     },
     "warranty": {
       "title": "5 İllik Zəmanət",
-      "description": "Bütün məhsullarımız materialları və işçiliyi əhatə edən geniş 5 illik zəmanətlə gəlir"
+      "badge": "Tam Əhatə",
+      "years": "İl",
+      "guarantee": "Materiallara və işçiliyə tam zəmanət",
+      "description": "Bütün məhsullarımız materialları və işçiliyi əhatə edən geniş 5 illik zəmanətlə gəlir",
+      "features": {
+        "frames": "Çərçivə profilləri",
+        "glass": "Şüşə panellər",
+        "hardware": "Furnitura və quraşdırmalar",
+        "seals": "Kipləşdiricilər və contalar",
+        "installation": "Quraşdırma işləri"
+      }
+    },
+    "import": {
+      "title": "100% Avropa Keyfiyyətli Materiallar",
+      "description": "Bütün materiallarımız Almaniya, İtaliya və Türkiyə daxil olmaqla aparıcı Avropa istehsalçılarından idxal edilir."
     },
     "cta": {
       "title": "Daha çox bilmək istəyirsiniz?",
@@ -249,13 +263,11 @@
       "customers": "450+",
       "customersLabel": "Məmnun Müştəri",
       "stats": {
-        "years": "5+",
-        "yearsLabel": "İllik təcrübə",
-        "projects": "500+",
-        "projectsLabel": "Layihə",
-        "satisfaction": "98%",
-        "satisfactionLabel": "Məmnuniyyət"
-      }
+        "years": "İllik təcrübə",
+        "projects": "Layihə",
+        "team": "Komanda üzvü"
+      },
+      "since": "2021-ci ildən"
     },
     "values": {
       "title": "Dəyərlərimiz",
